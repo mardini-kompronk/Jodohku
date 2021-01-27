@@ -11,7 +11,9 @@ const data = ["Kalian adalah pasangan yg serasi namun terlau banyak rintangan yg
     "Wahhhh bahaya nih saya mencium bau bau perselingkuhan salah satu diantara kalian.",
     "Selamat ya kalian sebentar lagi akan menuju jenjang pernikahan :).",
     "Sebentar lagi kalian akan putus, siap siap jadi jomblo abadi :D.",
-    "Sepertinya kalian cuma main main menjalin hubungan ini, Segeralah menjalin hubungan yg serius."];
+    "Sepertinya kalian cuma main main menjalin hubungan ini, Segeralah menjalin hubungan yg serius.",
+    "Sepertinya ada orang yg tidak suka dengan hubungan kalian, jadi tetap waspada.",
+    "Hmmm... sepertinya orang tua kalian tidak setuju dengan hubungan kalian, coba yakinkan kedua orang tua kalian."];
 
 const hasil = Math.floor(Math.random() * data.length)
 
