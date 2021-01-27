@@ -80,3 +80,25 @@ box-shadow: 0px 0px 103px -50px rgba(0,0,0,0.75);
     color: #cacaca;
     font-size: 1.2rem;
 }
+
+.result {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 1.5rem;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 103px -50px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 103px -50px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 103px -50px rgba(0,0,0,0.75);
+}
+
+.text-result  {
+    margin: 2rem 0;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #cacaca;
+    text-align: center;
+}
