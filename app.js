@@ -4,6 +4,7 @@ const input2 = document.getElementById('input_2');
 const box = document.querySelector('.box');
 const result = document.querySelector('.result');
 const text = document.querySelector('.text-result');
+const loadingIcon = document.querySelector('.loading_icon')
 
 // array data
 
@@ -25,8 +26,12 @@ function check() {
         box.style.display = "none";
         text.innerText = `"Mohon maaf namamu dan nama pasanganmu tidak boleh kosong"`
     } else {
-        result.style.display = "flex";
         box.style.display = "none";
-        text.innerText = `"Dear ${input1.value} dan ${input2.value}, ${data[hasil]}"`;
+        loadingIcon.style.display = "block";
+        setTimeout(function () {
+            loadingIcon.style.display = "none";
+            result.style.display = "flex";
+            text.innerText = `"Dear ${input1.value} dan ${input2.value}, ${data[hasil]}"`;
+        }, 3000)
     }
 }
